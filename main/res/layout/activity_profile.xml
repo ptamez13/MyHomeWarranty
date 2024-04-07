@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/homeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo_image_content_description"
+        android:maxWidth="300dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/userInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homeImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/system_accent3_200"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Jane Smith\n5555 Invalid Lane"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/userInfoTextView"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/guidesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:maxWidth="300dp"
+            android:text="@string/guides" />
+
+        <Button
+            android:id="@+id/serviceRequestsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:maxWidth="300dp"
+            android:text="@string/service_requests" />
+
+        <Button
+            android:id="@+id/contractorDirectoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:enabled="false"
+            android:maxWidth="300dp"
+            android:text="@string/contractor_directory" />
+
+        <Button
+            android:id="@+id/contactUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:enabled="false"
+            android:maxWidth="300dp"
+            android:text="@string/contact_us" />
+    </LinearLayout>
+
+</RelativeLayout>

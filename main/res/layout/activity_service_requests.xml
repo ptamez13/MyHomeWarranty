@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/wrenchImage"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/wrench_image_content_description"
+        android:maxWidth="300dp"
+        android:src="@drawable/wrench" />
+
+    <TextView
+        android:id="@+id/userInfoTextView"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wrenchImage"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/system_background_light"
+        android:padding="16dp"
+        android:text="Jane Smith\n5555 Invalid Lane"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@android:drawable/divider_horizontal_textfield" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfoTextView"
+        android:layout_marginTop="44dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/statusOfRequestsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:enabled="false"
+            android:maxWidth="300dp"
+            android:text="@string/status_of_requests" />
+
+        <Button
+            android:id="@+id/historyOfRequestsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:enabled="false"
+            android:maxWidth="300dp"
+            android:text="@string/history_of_requests" />
+
+        <Button
+            android:id="@+id/newServiceRequestsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:enabled="true"
+            android:maxWidth="300dp"
+            android:text="@string/new_service_requests" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

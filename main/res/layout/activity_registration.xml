@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_title"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp" />
+
+        <!-- First Name -->
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name"
+            android:enabled="false" />
+
+        <!-- Last Name -->
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name"
+            android:enabled="false" />
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:enabled="false" />
+
+        <!-- City -->
+        <EditText
+            android:id="@+id/editTextCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            android:enabled="false" />
+
+        <!-- State -->
+        <EditText
+            android:id="@+id/editTextState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/state"
+            android:enabled="false" />
+
+        <!-- Zip Code -->
+        <EditText
+            android:id="@+id/editTextZipCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/zip_code"
+            android:enabled="false" />
+
+        <!-- Builder -->
+        <EditText
+            android:id="@+id/editTextBuilder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/builder"
+            android:enabled="false" />
+
+        <!-- Floor Plan -->
+        <EditText
+            android:id="@+id/editTextFloorPlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/floor_plan"
+            android:enabled="false" />
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:enabled="false" />
+
+        <!-- Email Address -->
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_address"
+            android:enabled="false" />
+
+        <!-- Create Password -->
+        <EditText
+            android:id="@+id/editTextCreatePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/create_password"
+            android:enabled="false" />
+
+        <!-- Re-enter Password -->
+        <EditText
+            android:id="@+id/editTextReenterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/reenter_password"
+            android:enabled="false" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitRegistrationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>

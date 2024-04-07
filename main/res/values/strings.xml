@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="logo_image_content_description">Home Warranty Logo</string>
+    <string name="register_button_label">Register</string>
+    <string name="sign_in_button_label">Sign In</string>
+    <string name="registration_title">Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="builder">Builder</string>
+    <string name="floor_plan">Floor Plan</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="create_password">Create Password</string>
+    <string name="reenter_password">Re-enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="guides">Guides</string>
+    <string name="service_requests">Service Requests</string>
+    <string name="contractor_directory">Contractor Directory</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="new_service_requests">New Service Requests</string>
+    <string name="status_of_requests">Status of Requests</string>
+    <string name="history_of_requests">History of Requests</string>
+    <string name="user_info">Jane Smith\n5555 Invalid Lane</string>
+    <string name="wrench_image_content_description">Wrench Logo</string>
+</resources>
